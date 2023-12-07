@@ -40,7 +40,7 @@ def currency_converter():
             amount = float(input("\n\nenter USD you want to convert: "))
             result = convert_currency(amount, usd_to_gbp_rate)
             print(f"{amount} USD is equal to {result:.2f} GBP")
-        elif choice == '2':
+        elif choice == '4':
             time.sleep(0.25)
             amount = float(input("\n\nenter GBP you want to convert: "))
             result = convert_currency(amount, 1 / usd_to_gbp_rate)
