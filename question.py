@@ -38,3 +38,38 @@
 # string = string.lower()
 # string = string.replace("n", "Ethan")
 # print(string)
+
+# string = "Hello world I am the string you were talking about"
+# holder = "text"
+# string = string.split()
+
+# for i in range(len(string)):
+#     holder = string[i]
+#     if len(holder) >= 5:
+#         print(holder)
+
+# string = "Hello world I am the string you were talking about appropriately approximately at a time ago"
+# holder = "text"
+# string = string.split()
+
+# for i in range(len(string)):
+#     holder = string[i]
+#     if len(holder) >= 5:
+#         if holder[0] == "a":
+#             print(holder)
+
+# string = "H3ll0 w0rld I 6m the str1ng y0u w3r3 t6lk1ng ab0u1 6ppr0pri6t3ly appr0x1m6t3ly 6t a t1me ag0"
+# holder = "text"
+
+# for i in range(len(string)):
+#     holder = string[i]
+#     if holder.isnumeric() == True:
+#         print(holder)
+
+string = "H3ll0 w0rld I 6m the str1ng y0u w3r3 t6lk1ng ab0u1 6ppr0pri6t3ly appr0x1m6t3ly 6t a t1me ag0"
+holder = "text"
+
+for i in range(len(string)):
+    holder = string[i]
+    if holder.isalpha() == True:
+        print(holder)
