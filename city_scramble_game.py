@@ -14,7 +14,7 @@ score = 0
 time.sleep(0.05)
 print("\nin case you were wondering yes i did want to call this geoguessr")
 
-time.sleep(0.1)
+time.sleep(1)
 startgame = input("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStart game? (y/n)\n")
 
 if startgame == "y" or startgame == "Y":
