@@ -55,7 +55,7 @@ if startgame == "y" or startgame == "Y":
                 print("ok i guess")
             if score > 20 and score < 50:
                 print("extraordinary")
-            else:
+            if score > 50:
                 print("you are a master")
             break
 else:
