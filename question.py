@@ -66,10 +66,61 @@
 #     if holder.isnumeric() == True:
 #         print(holder)
 
-string = "H3ll0 w0rld I 6m the str1ng y0u w3r3 t6lk1ng ab0u1 6ppr0pri6t3ly appr0x1m6t3ly 6t a t1me ag0"
-holder = "text"
+# string = "H3ll0 w0rld I 6m the str1ng y0u w3r3 t6lk1ng ab0u1 6ppr0pri6t3ly appr0x1m6t3ly 6t a t1me ag0"
+# holder = "text"
 
-for i in range(len(string)):
-    holder = string[i]
-    if holder.isalpha() == True:
-        print(holder)
+# for i in range(len(string)):
+#     holder = string[i]
+#     if holder.isalpha() == True:
+#         print(holder)
+
+# dicktionary = {
+#     'name': 'Alice',
+#     'age': 25,
+#     'city': 'New York'
+# }
+
+# print(dicktionary)
+
+# dicktionary = {
+#     'name': 'Bob',
+#     'job': 'Engineer',
+#     'age': 30
+# }
+
+# print(dicktionary["job"])
+
+# dicktionary = {
+
+# }
+
+# dicktionary["name"] = 'John'
+# dicktionary["age"] = 22
+
+# print(dicktionary)
+
+# dicktionary = {
+#     'name': 'Alice',
+#     'age': 25
+# }
+
+# dicktionary["age"] = 26
+# print(dicktionary)
+
+# dicktionary = {
+#     'name': 'Alice',
+#     'age': 25,
+#     'city': 'New York'
+# }
+
+# dicktionary.pop("city")
+# print(dicktionary)
+
+dicktionary = {
+    'math': 90,
+    'science': 85,
+    'history': 80
+}
+
+for i,j in dicktionary.items():
+    print(i,j)
